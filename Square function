@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    printf("please enter the number you want squared");
+    double number;
+    scanf("%lf" , &number);
+    Square();
+
+    
+
+}
+void Square(double number){
+    printf("The square of the number is:\n");
+   printf( "%lf", number * number);
+}
